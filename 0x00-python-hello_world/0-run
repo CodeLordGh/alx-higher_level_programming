@@ -1,5 +1,2 @@
-#!/bin/bash
-if [ ! -z "$PYFILE" ]; then
-   python "$PYFILE"
-else
-   echo "Python file is not set!"
+#!/usr/bin/python3
+python $PYFILE
