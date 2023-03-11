@@ -1,13 +1,7 @@
 #!/usr/bin/python3
 def no_c(my_string):
-  newstr = ''
-  for char in my_string:
-    if char != 'c' and char != 'C':
-      newstr += char
-  return newstr
-# print(no_c("My name is Carol"))
-# print(no_c("I am learning Python"))
- # Output
-#My name isarl
-#I am leaning Python
-#CodeLordGh
+    new_str = ""
+    for i in my_string:
+        if i is not 'c' and i is not 'C':
+            new_str += i
+    return (new_str)
