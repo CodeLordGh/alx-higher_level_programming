@@ -1,1 +1,1 @@
-0x02. Python - import & modules
+Python - Data Structures: Lists, Tuples
